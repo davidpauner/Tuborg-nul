@@ -60,6 +60,11 @@ section {}
     padding: 50px 100px 100px 100px;
 }
 
+#trainMotion {
+    display: flex;
+    flex-direction: row;
+}
+
 #trainMotion.choochoo img {
     transform: translate(150%, 0%);
 
