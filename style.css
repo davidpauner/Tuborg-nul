@@ -138,7 +138,7 @@ h2 {
     font-size: 3em;
     letter-spacing: -0.05em;
     line-height: 1.1;
-    font-family: 'Cheltenham Condensed';
+    font-family: 'cheltenham_condensedbold';
 }
 
 p {
@@ -176,13 +176,13 @@ nav {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-family: "Tuborg Serif";
+    font-family: 'cheltenham_condensedbold';
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    font-family: 'Cheltenham Condensed';
+    font-family: 'cheltenham_condensedbold';
     padding: 20px;
 
 }
@@ -196,11 +196,10 @@ nav a:hover {
 
 @font-face {
     font-family: 'cheltenham_condensedbold';
-    src: url('cheltenham_condensed_bold-webfont.woff2') format('woff2'),
-        url('cheltenham_condensed_bold-webfont.woff') format('woff');
+    src: url('fontsquirrel/cheltenham_condensed_bold-webfont.woff2') format('woff2'),
+        url('fontsquirrel/cheltenham_condensed_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /****** pil ned *****/
