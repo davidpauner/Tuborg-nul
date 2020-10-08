@@ -10,13 +10,14 @@ img {
 
 
 #trainMotion img {
-    transform: translate(150%, 0%);
-    transition: all 1s ease-out;
+    transform: translate(0%, 0%);
+    transition: all 2s ease-out;
     padding: 100px;
 }
 
 #trainMotion.choochoo img {
-    transform: translate(0%, 0%);
+    transform: translate(150%, 0%);
+
 }
 
 
@@ -82,6 +83,7 @@ h2 {
     font-size: 3em;
     letter-spacing: -0.05em;
     line-height: 1.1;
+    font-family: 'Cheltenham Condensed';
 }
 
 p {
@@ -102,7 +104,6 @@ a {
     text-align: left;
     padding: 20px;
     color: white;
-
 }
 
 header {
@@ -116,5 +117,29 @@ nav {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    font-family: "Tuborg Serif";
+}
 
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cheltenham Condensed';
+    padding: 20px;
+
+}
+
+
+nav a:hover {
+    color: #FAC177;
+
+}
+
+
+@font-face {
+    font-family: 'Cheltenham Condensed';
+    src: url('CheltenhamCondBold.woff2') format('woff2'),
+        url('CheltenhamCondBold.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
 }
