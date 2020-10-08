@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Cheltenham Condensed';
-    src: url('CheltenhamCondBold.woff2') format('woff2'),
-        url('CheltenhamCondBold.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-

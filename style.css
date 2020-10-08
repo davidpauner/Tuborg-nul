@@ -191,8 +191,8 @@ nav a:hover {
 
 @font-face {
     font-family: 'Cheltenham Condensed';
-    src: url('CheltenhamCondBold.woff2') format('woff2'),
-        url('CheltenhamCondBold.woff') format('woff');
+    src: url('cheltenham_condensed_bold-webfont.woff2') format('woff2'),
+        url('cheltenham_condensed_bold-webfont.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
