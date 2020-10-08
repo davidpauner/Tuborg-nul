@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -15,16 +16,16 @@
     <header>
 
         <div id="logo">
-            <p>Logo</p>
+            <img class="logobillede" alt="" src="img/Tuborg-nul-logo.png">
 
 
         </div>
 
         <nav>
             <ul>
-                <a href="#land">Muligheder</a>
-                <a href="#om_os">Smag</a>
-
+                <a href="#smag">Smag</a>
+                <a href="#muligheder">Muligheder</a>
+                <a href="#sundhed">Sundhed</a>
             </ul>
         </nav>
 
@@ -43,9 +44,18 @@
             </div>
         </div>
 
+        <div id="pil_container" class="pil_position">
+            <!--
+            <a class="explore_album" href="#loopview">
+                EXPLORE ALBUMS
+            </a>
+-->
+            <a href="#smag" id="pil_sprite"></a>
+        </div>
+
     </section>
 
-    <section class="panel" data-color="violet" id="land">
+    <section id="smag" class="panel space" data-color="violet">
         <article class="billede">
             <img src="img/TuborgNUL_Packshot-wet.png" alt="mark">
         </article>
@@ -60,7 +70,7 @@
         </article>
     </section>
 
-    <section class="panel" data-color="indigo" id="om_os">
+    <section id="sundhed" class="panel space" data-color="indigo">
 
         <article class="tekst">
             <h2>Hvem er vi?</h2>
@@ -69,10 +79,25 @@
 
             </p>
         </article>
-        <article class="billede">
+        <article class="billede_2">
             <img src="img/TuborgNUL_Packshot-flaske.png" alt="venner">
         </article>
 
+    </section>
+
+    <section id="muligheder" class="panel space" data-color="violet">
+        <article class="billede">
+            <img src="img/TuborgNUL_Packshot-wet.png" alt="mark">
+        </article>
+        <article class="tekst">
+            <h2>Vores rejse</h2>
+            <p>Vi startede vores rejse i efteråret 2016 i Colombia hvor vi høstede egne bønner. Her blev vi helt hooked på at vide mere.
+                Vi har rejst i mange verdenshjørner efter kaffebønner, men især Colombia gjorde stort indtryk på os. Kaffen dér er vores personlige favorit.
+                Til foråret i 2021, hvis pandemien tillader det, går rejsen til Japan, hvor vi skal dykke ned i en helt anden kaffekultur. Og vi glæder os.
+                <br> <br>
+
+            </p>
+        </article>
     </section>
 
 
@@ -80,4 +105,6 @@
     </script>
     <script src="skript.js">
     </script>
-</body></html>
+</body>
+
+</html>
