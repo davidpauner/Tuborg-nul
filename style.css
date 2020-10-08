@@ -12,7 +12,7 @@ img {
 #trainMotion img {
     transform: translate(150%, 0%);
     transition: all 1s ease-out;
-    padding: 100px;
+    padding: 80px;
 }
 
 #trainMotion.choochoo img {
@@ -117,4 +117,8 @@ nav {
     color: white;
     text-transform: uppercase;
 
+}
+
+#splashTekst {
+    padding: 50px;
 }
