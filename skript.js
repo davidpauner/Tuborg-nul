@@ -52,3 +52,7 @@
      });
 
  }).scroll();
+
+
+
+ window.addEventListener('scroll'
