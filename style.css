@@ -1,12 +1,17 @@
+/*** generel ***/
+
+
 html {
     scroll-behavior: smooth;
 }
 
-
-img {
-    width: 100%;
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
 
 }
+
+
 
 img {
     width: 100%;
@@ -14,8 +19,9 @@ img {
 }
 
 
+
 .forsidebillede {
-    width: 300px;
+    width: 500px;
 }
 
 .logobillede {
@@ -25,7 +31,55 @@ img {
 
 }
 
-section {}
+
+
+
+
+
+
+/*** fonts ***/
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 0.09rem;
+    line-height: 1.1;
+    font-family: 'cheltenham_condensedbold';
+    padding: 400px 0 0 0;
+    color: white;
+
+
+}
+
+h2 {
+    font-size: 3em;
+    letter-spacing: 0.09rem;
+    line-height: 1.1;
+    font-family: 'cheltenham_condensedbold';
+}
+
+p {
+    max-width: 30em;
+    font-size: 1.1em;
+    letter-spacing: 0.09rem;
+    line-height: 2rem;
+    font-family: 'Myriad Pro';
+    padding: 20px 0 0 0;
+    font-weight: 200;
+    margin: 0 0 0 0;
+}
+
+a {
+    font-size: 1.1em;
+    letter-spacing: 0.03rem;
+    font-weight: 300;
+
+    font-family: 'cheltenham_condensedbold';
+    color: #4332CF;
+}
+
+
+
+
 
 /*** sectioner ***/
 #smag {
@@ -46,24 +100,61 @@ section {}
     justify-content: center;
 }
 
-.tekst,
+.tekst {
+    flex-basis: 800px;
+    flex-grow: 1;
+    max-width: 580px;
+
+}
+
 .billede {
     flex-basis: 800px;
     flex-grow: 1;
     max-width: 580px;
+    text-align: center;
+    ;
 }
 
+.footer {
+    text-align: center;
+}
+
+
+
+
+
+
+/*** forside ***/
 
 #trainMotion img {
     transform: translate(0%, 0%);
     transition: all 2s ease-out;
-    padding: 50px 100px 100px 100px;
+    padding: 0px 0px 0px 0px;
+    margin: 50px 250px 0 0;
 }
+
+/**/
+/*#trainMotion_contrainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}*/
 
 #trainMotion.choochoo img {
-    transform: translate(150%, 0%);
+    transform: translate(170%, 0%);
 
 }
+
+#trainMotion {}
+
+#tekstforside {
+    position: absolute;
+    left: 51vw;
+    z-index: -1
+}
+
+
+
 
 
 /* Setting fade transition and default settings */
@@ -105,60 +196,32 @@ body {
     background-color: #2F8FED;
 }
 
-.color-green {
-    background-color: #4DCF42;
-}
 
-.color-yellow {
-    background-color: #FAEB33;
-}
-
-.color-orange {
-    background-color: #F19031;
-}
-
-.color-red {
-    background-color: #F2293A;
-}
 
 /* styling for demo, can ignore */
+/*
 body {
     text-align: center;
     font-size: 120%;
     line-height: 1.618;
 }
+*/
 
-h1,
-h2 {
-    font-size: 3em;
-    letter-spacing: -0.05em;
-    line-height: 1.1;
-    font-family: 'Cheltenham Condensed';
-}
 
-p {
-    max-width: 30em;
-    margin-bottom: 1.618em;
-}
-
-a {
-    color: #4332CF;
-}
 
 .billede {
     width: 50%;
 
 }
 
-.billede_2 .billede {}
 
 
-#logo {
 
-    text-align: left;
-    padding: 20px;
-    color: white;
-}
+
+
+
+/*** header ***/
+
 
 header {
     display: flex;
@@ -167,17 +230,18 @@ header {
 }
 
 nav {
-    padding: 20px;
+    padding: 40px 50px 20px 0px;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
-    font-family: "Tuborg Serif";
+    font-family: 'cheltenham_condensedbold';
+    margin: 0;
+
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    font-family: 'Cheltenham Condensed';
+    font-family: 'cheltenham_condensedbold';
     padding: 20px;
 
 }
@@ -188,15 +252,28 @@ nav a:hover {
 
 }
 
+#logo {
+
+    text-align: left;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
 
 @font-face {
     font-family: 'cheltenham_condensedbold';
-    src: url('cheltenham_condensed_bold-webfont.woff2') format('woff2'),
-        url('cheltenham_condensed_bold-webfont.woff') format('woff');
+    src: url('fontsquirrel/cheltenham_condensed_bold-webfont.woff2') format('woff2'),
+        url('fontsquirrel/cheltenham_condensed_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+
+
+
+
+
+
 
 /****** pil ned *****/
 
@@ -211,8 +288,8 @@ nav a:hover {
 #pil_sprite {
     background-image: url(svg/pil_ned.svg);
     background-size: cover;
-    height: 1vw;
-    width: 1.8vw;
+    height: 15px;
+    width: 27px;
     cursor: pointer;
 }
 
@@ -220,7 +297,6 @@ nav a:hover {
 
 #pil_container:hover {
     transform: scale(1.2);
-
 
 }
 
