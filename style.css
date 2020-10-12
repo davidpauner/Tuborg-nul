@@ -48,8 +48,10 @@ h1 {
     letter-spacing: 0.09rem;
     line-height: 1.1;
     font-family: 'cheltenham_condensedbold';
-    padding: 400px 0 0 0;
+    padding: 0px 0 0px 0;
     color: white;
+    margin: -150px 0 0px 0;
+
 
 
 }
@@ -135,7 +137,7 @@ a {
     transform: translate(0%, 0%);
     transition: all 2s ease-out;
     padding: 0px 0px 0px 0px;
-    margin: 50px 250px 0 0;
+
 }
 
 
@@ -147,11 +149,13 @@ a {
 
 
 
+/*
 #tekstforside {
     position: absolute;
     left: 51vw;
     z-index: -1
 }
+*/
 
 
 
@@ -313,6 +317,8 @@ video {
 }
 
 
+
+
 @media(min-width:740px) {
     main {
         max-width: 1400px;
@@ -327,6 +333,7 @@ video {
         line-height: 1.1;
         font-family: 'cheltenham_condensedbold';
         padding: 400px 0 0 0;
+        margin: 0 0 0 0;
         color: white;
 
 
@@ -365,5 +372,14 @@ video {
         padding: 0px 0px 0px 0px;
         margin: 50px 250px 0 0;
     }
+
+
+
+    #tekstforside {
+        position: absolute;
+        left: 51vw;
+        z-index: -1
+    }
+
 
 }
