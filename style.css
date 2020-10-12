@@ -180,7 +180,7 @@ body {
 }
 
 .space {
-    padding: 150px 50px 0px 50px;
+    padding: 150px 150px 0px 150px;
 }
 
 /* colours */
@@ -327,7 +327,10 @@ footer {
 video {
     width: 100%;
     max-width: 600px;
-    object-fit: contain;
+    object-fit: cover;
+    height: auto;
+    padding-bottom: 100px;
+    margin-top: 0px;
 
 
 }
