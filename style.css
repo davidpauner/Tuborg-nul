@@ -69,7 +69,7 @@ p {
 }
 
 a {
-    font-size: 1.1em;
+    font-size: 1.3em;
     letter-spacing: 0.03rem;
     font-weight: 300;
 
@@ -308,4 +308,17 @@ nav a:hover {
 
 .display {
     display: none;
+}
+
+
+
+/** footer **/
+
+footer {
+    background-color: #d3d3d3
+}
+
+.footer img {
+    width: 30%;
+    padding: 40px;
 }
