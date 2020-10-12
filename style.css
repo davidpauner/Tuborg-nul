@@ -322,3 +322,12 @@ footer {
     width: 30%;
     padding: 40px;
 }
+
+
+video {
+    width: 100%;
+    max-width: 600px;
+    object-fit: contain;
+
+
+}
