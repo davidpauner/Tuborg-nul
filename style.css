@@ -142,10 +142,7 @@ a {
 
 
 
-#trainMotion.choochoo img {
-    transform: translate(270%, 0%);
 
-}
 
 
 
@@ -379,6 +376,13 @@ video {
         position: absolute;
         left: 51vw;
         z-index: -1
+    }
+
+
+
+    #trainMotion.choochoo img {
+        transform: translate(270%, 0%);
+
     }
 
 
