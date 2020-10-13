@@ -140,15 +140,22 @@ a {
 
 }
 
+<<<<<<< HEAD
 
 
 #trainMotion.choochoo img {
     transform: translate(170%, 0%);
+=======
 
-}
+>>>>>>> origin/main
 
 
 
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
 /*
 #tekstforside {
     position: absolute;
@@ -182,9 +189,13 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .space {
     padding: 150px 50px 0px 50px;
 }
+=======
+
+>>>>>>> origin/main
 =======
 
 >>>>>>> origin/main
@@ -387,6 +398,17 @@ video {
         position: absolute;
         left: 51vw;
         z-index: -1
+    }
+
+
+<<<<<<< HEAD
+}
+>>>>>>> origin/main
+=======
+
+    #trainMotion.choochoo img {
+        transform: translate(270%, 0%);
+
     }
 
 
