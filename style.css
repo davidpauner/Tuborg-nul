@@ -31,6 +31,10 @@ img {
 
 }
 
+main {
+    max-width: 600px
+}
+
 
 
 
@@ -44,22 +48,25 @@ h1 {
     letter-spacing: 0.09rem;
     line-height: 1.1;
     font-family: 'cheltenham_condensedbold';
-    padding: 400px 0 0 0;
+    padding: 0px 0 0px 0;
     color: white;
+    margin: -150px 0 0px 0;
+
 
 
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: 0.09rem;
     line-height: 1.1;
     font-family: 'cheltenham_condensedbold';
+    padding: 10px 0 0 0;
 }
 
 p {
     max-width: 30em;
-    font-size: 1.1em;
+    font-size: 1em;
     letter-spacing: 0.09rem;
     line-height: 2rem;
     font-family: 'Myriad Pro';
@@ -101,18 +108,18 @@ a {
 }
 
 .tekst {
-    flex-basis: 800px;
+    flex-basis: 400px;
     flex-grow: 1;
-    max-width: 580px;
+    max-width: 500px;
 
 }
 
 .billede {
-    flex-basis: 800px;
+    flex-basis: 400px;
     flex-grow: 1;
     max-width: 580px;
     text-align: center;
-    ;
+    width: 50%;
 }
 
 .footer {
@@ -124,36 +131,31 @@ a {
 
 
 
-/*** forside ***/
+/*** forside med dåse ***/
 
 #trainMotion img {
     transform: translate(0%, 0%);
     transition: all 2s ease-out;
     padding: 0px 0px 0px 0px;
-    margin: 50px 250px 0 0;
+
 }
 
-/**/
-/*#trainMotion_contrainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}*/
+
 
 #trainMotion.choochoo img {
     transform: translate(170%, 0%);
 
 }
 
-#trainMotion {}
 
+
+/*
 #tekstforside {
     position: absolute;
     left: 51vw;
     z-index: -1
 }
-
-
+*/
 
 
 
@@ -179,9 +181,13 @@ body {
     /* turn above on to see the edge of panels */
 }
 
+<<<<<<< HEAD
 .space {
     padding: 150px 50px 0px 50px;
 }
+=======
+
+>>>>>>> origin/main
 
 /* colours */
 .color-violet {
@@ -195,28 +201,6 @@ body {
 .color-blue {
     background-color: #2F8FED;
 }
-
-
-
-/* styling for demo, can ignore */
-/*
-body {
-    text-align: center;
-    font-size: 120%;
-    line-height: 1.618;
-}
-*/
-
-
-
-.billede {
-    width: 50%;
-
-}
-
-
-
-
 
 
 
@@ -305,3 +289,106 @@ nav a:hover {
     top: 90vh;
     left: 49.3vw;
 }
+<<<<<<< HEAD
+=======
+
+.display {
+    display: none;
+}
+
+
+
+/** footer **/
+
+footer {
+    background-color: #d3d3d3
+}
+
+.footer img {
+    width: 30%;
+    padding: 40px;
+}
+
+
+/*** video***/
+
+
+video {
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+    height: auto;
+    padding-bottom: 100px;
+    margin-top: 0px;
+
+
+}
+
+
+
+
+@media(min-width:740px) {
+    main {
+        max-width: 1400px;
+    }
+
+
+    /*** fonts ***/
+
+    h1 {
+        font-size: 2em;
+        letter-spacing: 0.09rem;
+        line-height: 1.1;
+        font-family: 'cheltenham_condensedbold';
+        padding: 400px 0 0 0;
+        margin: 0 0 0 0;
+        color: white;
+
+
+    }
+
+    h2 {
+        font-size: 3em;
+        letter-spacing: 0.09rem;
+        line-height: 1.1;
+        font-family: 'cheltenham_condensedbold';
+    }
+
+    p {
+        max-width: 30em;
+        font-size: 1.1em;
+        letter-spacing: 0.09rem;
+        line-height: 2rem;
+        font-family: 'Myriad Pro';
+        padding: 20px 0 0 0;
+        font-weight: 200;
+        margin: 0 0 0 0;
+    }
+
+    a {
+        font-size: 1.3em;
+        letter-spacing: 0.03rem;
+        font-weight: 300;
+
+        font-family: 'cheltenham_condensedbold';
+        color: #4332CF;
+    }
+
+    #trainMotion img {
+        transform: translate(0%, 0%);
+        transition: all 2s ease-out;
+        padding: 0px 0px 0px 0px;
+        margin: 50px 250px 0 0;
+    }
+
+
+
+    #tekstforside {
+        position: absolute;
+        left: 51vw;
+        z-index: -1
+    }
+
+
+}
+>>>>>>> origin/main
